@@ -1,16 +1,23 @@
 # Cake_on_the_Road
     It is a demo of the game I'm making.
+    You can check the patch log in "Commit Log" folder
     Current version is 0.0.2
 
+    Dev: Yui San ae2f
+    Story: 청현
 
-## 0.0.2
-### Bug Fixed
+# 0.0.3
+## Updates
 ```
-Canvas size has been fixed.
+Now you can move by clicking arrow keys.
 ```
 
-## 0.0.1
-### Bug Fixed
+### Player
 ```
-json file is now moved to Resources folder.
+Its position is fixed.
+```
+### Cake On Table
+```
+It recurs.
+Resources has been updated.
 ```
