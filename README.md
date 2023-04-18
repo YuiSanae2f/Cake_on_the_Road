@@ -6,18 +6,13 @@
     Dev: Yui San ae2f
     Story: 청현
 
-# 0.0.3
-## Updates
+# 0.1
+## System
 ```
-Now you can move by clicking arrow keys.
+Autosave has been updated.
 ```
-
-### Player
+## Home Event
 ```
-Its position is fixed.
+Home event has now been available.
 ```
-### Cake On Table
-```
-It recurs.
-Resources has been updated.
-```
+## End1
