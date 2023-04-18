@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            
+        </style>
+        <meta charset="utf-8">
+        <title>Patch Notes</title>
+        <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+    </head>
+    <body>
+        <select id="versionSelect">
+            <option value="Commit Log/0.1.md">v0.1</option>
+            <option value="Commit Log/0.0.3.md">v0.0.3</option>
+            <option value="Commit Log/0.0.2.md">v0.0.2</option>
+            <option value="Commit Log/0.0.1.md">v0.0.1</option>
+        </select>
+        
+        <div id="patch"></div>
+        
+        <script>
+            const versionSelect = document.querySelector('#versionSelect');
+            const patchDiv = document.querySelector('#patch');
+            
+            versionSelect.addEventListener('change', () => {
+                const selectedValue = versionSelect.value;
+                divWrite(selectedValue, '#patch');
+            });
+        
+            function divWrite(path, id) {
+                fetch(path)
+                    .then(response => response.text())
+                    .then(data => {
+                        // Markdown을 HTML로 변환
+                        const converter = new showdown.Converter();
+                        const html = converter.makeHtml(data);
+                        // HTML 코드를 삽입
+                        document.querySelector(id).innerHTML = html;
+                    });
+            }
+        
+            divWrite('Commit Log/0.1.md', '#patch');
+        </script>        
+    </body>
+</html>
