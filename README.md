@@ -6,13 +6,16 @@
     Dev: Yui San ae2f
     Story: 청현
 
-# 0.1
-## System
+# 0.2
 ```
-Autosave has been updated.
+We've implemented two endings so far, and we are now releasing it.
+Although we haven't made a translation system yet, it is also in plan.
 ```
-## Home Event
+## Updates
 ```
-Home event has now been available.
+Realtime Tick added
+GameObject Library added
+You can now eat a cake
+Once eaten, cake table could teleport
+Now you can see our new icon
 ```
-## End1
