@@ -6,16 +6,13 @@
     Dev: Yui San ae2f
     Story: 청현
 
-# 0.2
+# 0.2.1
+## Button
 ```
-We've implemented two endings so far, and we are now releasing it.
-Although we haven't made a translation system yet, it is also in plan.
+The error buttons on CakeEvent all execute Yes function has been fixed.
 ```
-## Updates
+
+## Avatar
 ```
-Realtime Tick added
-GameObject Library added
-You can now eat a cake
-Once eaten, cake table could teleport
-Now you can see our new icon
+Now player is not just a boring circle anymore!
 ```
